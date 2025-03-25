@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import UploadForm from '@/components/form/form-input';
-import NewFormInput from '@/components/form/newform-input'
 import Button from '@/components/ui/Button';
 import { Plus } from 'lucide-react';
 
@@ -34,10 +33,7 @@ const CardForm = () => {
               onUpload={() => setFormOpen(false)}
               editData={null}
             />
-            <NewFormInput 
-              onUpload={() => setFormOpen(false)}
-              editData={null}
-            />
+
           </motion.div>
         )}
       </AnimatePresence>
