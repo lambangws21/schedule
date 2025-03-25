@@ -68,7 +68,7 @@ export interface OperationRecord {
   date: string;
   namaPasien: string;
   nomorRekamMedis: string;
-  namaDokter: string;
+  namaDokter?: string;
   jenisBius: string;
   jaminanOperasi: string;
   tindakanOperasi: string;
